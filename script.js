@@ -7,7 +7,7 @@ function toggleMenu() {
 
   
   const textElement = document.getElementById("changing-text");
-const roles = ["Frontend Developer", "YouTuber", "Designer"];
+const roles = ["Android developer", "YouTuber"];
 let index = 0;
 
 function changeText() {
@@ -20,4 +20,4 @@ function changeText() {
 }
 
 // Change text every 3 seconds
-setInterval(changeText, 3000);
+setInterval(changeText, 2000);
